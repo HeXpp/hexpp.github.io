@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work in Progress</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+
+    .title {
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
+
+    .description {
+      font-size: 1.5em;
+    }
+
+    .progress {
+      height: 2px;
+      background-color: #ccc;
+      margin-bottom: 1em;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background-color: #000;
+      width: 0%;
+      transition: width 0.3s ease-in-out;
+    }
+
+    .progress-text {
+      font-size: 0.8em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Work in Progress</h1>
+    <p class="description">
+      This page is still under development.
+    </p>
+    <div class="progress">
+      <div class="progress-bar"></div>
+    </div>
+    <p class="progress-text">
+      55% Complete
+    </p>
+  </div>
+</body>
+</html>
