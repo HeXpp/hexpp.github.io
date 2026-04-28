@@ -54,7 +54,7 @@ nav ul {
     justify-content: space-between;
     align-items: center;
     padding: 40px 80px;
-    background: linear-gradient(180deg, #DDDDDD, #F5D6FE);
+    background: linear-gradient(180deg, #DDDDDD, #bfd0ff);
     border-radius: 35px;
     margin: 20px 40px;
     flex-wrap: nowrap;
@@ -104,19 +104,19 @@ nav ul {
     font-weight: bold;
 }
 
-/* Esconder el menú móvil por defecto */
+/* Esconder el menï¿½ mï¿½vil por defecto */
 .mobile-menu {
     display: none; /* Oculto por defecto */
-    background-color: #f5f5f5; /* Fondo del menú móvil */
+    background-color: #f5f5f5; /* Fondo del menï¿½ mï¿½vil */
     padding: 20px; /* Espaciado interno */
-    position: absolute; /* Posición absoluta para que se superponga sobre otros elementos */
+    position: absolute; /* Posiciï¿½n absoluta para que se superponga sobre otros elementos */
     top: 70px; /* Espaciado desde la parte superior */
     left: 50%; /* Posicionamiento horizontal centrado */
-    transform: translateX(-50%); /* Mueve el menú al centro horizontalmente */
-    width: calc(100% - 40px); /* Ancho del menú con márgenes laterales */
+    transform: translateX(-50%); /* Mueve el menï¿½ al centro horizontalmente */
+    width: calc(100% - 40px); /* Ancho del menï¿½ con mï¿½rgenes laterales */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar un poco de profundidad */
-    z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+    z-index: 1000; /* Asegura que el menï¿½ estï¿½ por encima de otros elementos */
 }
 
     .mobile-menu ul {
@@ -131,29 +131,29 @@ nav ul {
         .mobile-menu ul li a {
             text-decoration: none; /* Quita el subrayado de los enlaces */
             color: #000; /* Color del texto */
-            font-size: 18px; /* Tamaño del texto */
+            font-size: 18px; /* Tamaï¿½o del texto */
             font-weight: bold; /* Peso del texto */
             text-align: center; /* Centra el texto dentro de cada enlace */
         }
 
-    /* Mostrar menú móvil cuando se activa */
+    /* Mostrar menï¿½ mï¿½vil cuando se activa */
     .mobile-menu.show {
-        display: block; /* Muestra el menú cuando tiene la clase 'show' */
+        display: block; /* Muestra el menï¿½ cuando tiene la clase 'show' */
     }
 
-/* Estilos del menú hamburguesa */
+/* Estilos del menï¿½ hamburguesa */
 .menu-hamburger {
     display: none;
     font-size: 30px;
     cursor: pointer;
 }
 
-/* Mostrar menú móvil cuando se activa */
+/* Mostrar menï¿½ mï¿½vil cuando se activa */
 .mobile-menu.show {
     display: block;
 }
 
-/* Estilos de medios para la versión móvil */
+/* Estilos de medios para la versiï¿½n mï¿½vil */
 @media (max-width: 1200px) {
     .hero {
         padding: 20px 40px;
